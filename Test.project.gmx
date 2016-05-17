@@ -11,18 +11,32 @@
     <sprite>sprites\spr_powerup</sprite>
     <sprite>sprites\spr_player_powerup</sprite>
     <sprite>sprites\spr_enemy</sprite>
+    <sprite>sprites\spr_checkpoint</sprite>
+    <sprite>sprites\spr_portal_blue</sprite>
+    <sprite>sprites\spr_portal_orange</sprite>
+    <sprite>sprites\spr_checkpoint_active</sprite>
+    <sprite>sprites\spr_platform</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_player_death.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_powerup</object>
     <object>objects\obj_enemy_nofall</object>
     <object>objects\obj_enemy</object>
+    <object>objects\obj_checkpoint</object>
+    <object>objects\obj_portal_blue</object>
+    <object>objects\obj_portal_orange</object>
+    <object>objects\obj_platform</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rm_init</room>
+    <room>rooms\rm_lvl0</room>
+    <room>rooms\rm_lvl1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
